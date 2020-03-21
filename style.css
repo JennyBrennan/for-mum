@@ -1,0 +1,43 @@
+body {
+  line-height:1.6;
+  font-size:18px;
+  color:#444;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+main {
+  max-width:600px;
+  margin: auto;
+}
+h1 {
+  text-align: center;
+}
+h1,h2,h3,h4 {
+  line-height: 1.2;
+  font-weight: 100;
+  font-family: 'Coming Soon', cursive;
+}
+a {
+  color: #00CA9E;
+  text-decoration: none;
+}
+a:hover {
+  color: #008467;
+}
+ul {
+  list-style-type: square;
+}
+hr {
+  margin: 50px 0px;
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.hedgehog {
+  position: fixed;
+  top: 0;
+  right:10%;
+  width: 20%;
+  z-index: -1;
+}
